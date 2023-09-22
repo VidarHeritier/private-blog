@@ -1,0 +1,27 @@
+.post-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 55%;
+  left: -300%;
+  z-index: 5;
+}
+#post {
+  border: 0.4vw solid orangered;
+  border-radius: 0.6vw;
+  height: 30vw;
+  width: 60vw;
+  padding: 2vw;
+  font-size: 1.6vw;
+}
+.submit-post {
+  height: 3vw;
+  width: 30vw;
+  align-self: center;
+  background-color: orangered;
+  border-style: none;
+  border-radius: 0 0 0.4vw 0.4vw;
+  font-size: 1.4vw;
+  letter-spacing: 0.1vw;
+  font-weight: 600;
+}

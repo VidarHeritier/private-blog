@@ -1,0 +1,48 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 3vw;
+  top: 5vw;
+}
+.user-login {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 4vw;
+  background-color: rgba(240, 248, 255, 0);
+}
+.user-login h6 {
+  font-size: 1vw;
+  margin-bottom: -0.2vw;
+}
+#user {
+  border: 0.2vw solid orangered;
+  border-radius: 0.3vw;
+  width: 10vw;
+  height: 1.3vw;
+}
+#pass {
+  border: 0.2vw solid orangered;
+  border-radius: 0.3vw;
+  width: 10vw;
+  height: 1.3vw;
+}
+.pass {
+  width: 20vw;
+  height: 4vw;
+  background-color: rgba(240, 248, 255, 0);
+}
+.pass h6 {
+  font-size: 1vw;
+  margin-bottom: -0.2vw;
+}
+#submit {
+  background-color: rgba(255, 0, 0, 0);
+  border: 0.2vw solid orangered;
+  border-radius: 0.5vw;
+  font-size: 2vw;
+}
+.welcome {
+  margin-top: 11vw;
+}

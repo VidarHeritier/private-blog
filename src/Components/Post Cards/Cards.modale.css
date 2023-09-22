@@ -1,0 +1,76 @@
+.card {
+  height: fit-content;
+  width: 25vw;
+  background-color: #d7d9b1;
+  border: 2vw solid #d7d9b1;
+  border-radius: 0.5vw;
+  filter: drop-shadow(0.3vw 0.3vw 0.1vw rgb(167, 167, 167));
+  color: darkblue;
+  text-align: center;
+}
+.user {
+  display: inline-flex;
+  height: 3vw;
+  width: 25vw;
+  background-color: #84acce;
+  filter: drop-shadow(0.3vw 0.3vw 0.1vw rgb(167, 167, 167));
+  border-radius: 0.2vw 0.2vw 0vw 0vw;
+  font-size: 0.9vw;
+  justify-content: space-around;
+  transform: translateY(-0.3vw);
+}
+.post {
+  display: inline-flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 25vw;
+  background-color: #827191;
+  color: aliceblue;
+  filter: drop-shadow(0.3vw 0.3vw 0.1vw rgb(167, 167, 167));
+}
+.title {
+  margin-bottom: 0.1vw;
+  padding: 0;
+  font-size: 1.3vw;
+}
+.post p {
+  padding: 1vw 2vw;
+  text-align: left;
+  font-size: 1vw;
+}
+.plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 3vw;
+  width: 25vw;
+  background-color: #84acce;
+  filter: drop-shadow(0.3vw 0.3vw 0.1vw rgb(167, 167, 167));
+  border-radius: 0vw 0vw 0.2vw 0.2vw;
+  font-size: 1.2vw;
+  font-weight: bolder;
+  transform: translateY(0.8vw);
+}
+.heart {
+  color: red;
+  font-size: 3vw;
+  text-shadow: 0.1vw 0.1vw 0.05vw rgb(23, 23, 23);
+  cursor: pointer;
+}
+.heart:active {
+  scale: 1.2;
+}
+.minus {
+  color: red;
+  font-size: 3vw;
+  text-shadow: 0.1vw 0.1vw 0.05vw rgb(23, 23, 23);
+  cursor: pointer;
+  transform: rotate(30deg) translateY(-0.3vw);
+}
+.minus:active {
+  scale: 1.2;
+}
+button {
+  background-color: #84acce00;
+  border-style: none;
+}
