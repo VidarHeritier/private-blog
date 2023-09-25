@@ -14,7 +14,7 @@ export function LikeCounter() {
         <p>{count}</p>
         <button
           className="minus"
-          onClick={() => setCount((count) => (count <= 0 ? 0 : count - 1))}
+          onClick={() => setCount((count) => count - 1)}
         >
           &#127183;
         </button>
